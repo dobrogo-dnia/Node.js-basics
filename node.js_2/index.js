@@ -5,11 +5,10 @@ app.set('view engine', 'ejs')
 app.set('views', './templates')
 
 app.use(express.static('public'))
-app.use('/css', express.static(path.join(_dirname, 'node_modules/bootstrap/dist/css')))
-
+app.use('/css/bootstrap.css', express.static('node_modules/bootstrap/dist/css/bootstrap.css'))
 
 app.get('/', (req, res) => {
-    res.render('vadim', {name: 'Vadim', age: 1, faculty: 'FICT', city: 'Kyiv'})
+    res.render('vadim', {name: 'Vadim', age: 18, faculty: 'FICT', city: 'Kyiv'})
 })
 
 app.get('/evgeniy', (req, res) => {
