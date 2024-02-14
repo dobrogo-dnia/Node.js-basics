@@ -1,2 +1,2 @@
 # Node.js-basics
-initial
+Laboratory works on node.js basics by Yevhenii Voroniuk and Vadim Voloshyn
