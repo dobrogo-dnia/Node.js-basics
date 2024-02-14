@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
     res.render('vadim', {name: 'Vadim', age: 18, faculty: 'FICT', city: 'Kyiv'})
 })
 
-app.get('/evgeniy', (req, res) => {
-    res.sendFile(__dirname + '/templates/evgeniy.html')
+app.get('/yevhenii', (req, res) => {
+    res.sendFile(__dirname + '/templates/yevhenii.html')
 })
 
 let port = 3002

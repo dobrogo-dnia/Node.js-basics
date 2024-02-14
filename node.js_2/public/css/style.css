@@ -18,11 +18,9 @@ a {
     line-height: 3;
     color: black;
     box-shadow: 0 0 5px white;
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
     font-size: large;
     border-radius: 7px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 a:link,
